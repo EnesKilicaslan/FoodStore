@@ -1,0 +1,23 @@
+{
+  "name": "food-store",
+  "version": "1.0.0",
+  "description": "Tailwind project",
+  "main": "index.js",
+  "scripts": {
+    "style": "tailwindcss -i src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnesKilicaslan/FoodStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EnesKilicaslan/FoodStore/issues"
+  },
+  "homepage": "https://github.com/EnesKilicaslan/FoodStore#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
