@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .card {
-  @apply bg-white rounded-md overflow-hidden shadow-md relative;
+  @apply bg-white rounded-md overflow-hidden shadow-md relative cursor-pointer hover:shadow-lg;
 }
 
 .badge {
@@ -12,6 +12,10 @@
 
 .icon {
   @apply h-5 w-5 inline-block;
+}
+
+.trans {
+  @apply transition ease-out duration-300;
 }
 
 @layer utilities {
